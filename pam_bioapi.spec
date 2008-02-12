@@ -14,7 +14,6 @@ BuildRequires: libpam-devel, libbioapi-devel
 Requires: bioapi
 
 %description
-
 %prep
 %setup -q -n %{name}
 
