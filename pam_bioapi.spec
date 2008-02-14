@@ -9,6 +9,7 @@ Release: %{release}
 Source0: http://www.nax.cz/pub/bioapi/pam_bioapi/%{name}_%{version}.tar.gz
 License: GPL 
 Group:   Sciences/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:     http://www.nax.cz/pub/bioapi/pam_bioapi/ 
 BuildRequires: libpam-devel, libbioapi-devel
 Requires: bioapi
