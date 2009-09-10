@@ -1,6 +1,6 @@
 %define name pam-bioapi
 %define version 0.3.0
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: The pam authentification module for bioapi
 Name: 	 %{name}
